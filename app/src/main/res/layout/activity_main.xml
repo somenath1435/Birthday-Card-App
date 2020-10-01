@@ -17,14 +17,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="24sp"
-            android:text="To:"
+            android:text="@string/to"
             android:layout_marginEnd="16dp"/>
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:hint="Receiver Name"
+            android:hint="@string/rec_name"
             android:textSize="24sp"
             android:id="@+id/receiver_edittext"/>
     </LinearLayout>
@@ -38,14 +38,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="24sp"
-            android:text="From:"
+            android:text="@string/from"
             android:layout_marginEnd="16dp"/>
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:hint="Sender Name"
+            android:hint="@string/sen_name"
             android:id="@+id/sender_edittext"
             android:textSize="24sp"/>
     </LinearLayout>
@@ -59,14 +59,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="24sp"
-            android:text="Message:"
+            android:text="@string/message"
             android:layout_marginEnd="16dp"/>
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:hint="Enter message"
+            android:hint="@string/enter_msg"
             android:id="@+id/message_edittext"
             android:textSize="24sp"/>
     </LinearLayout>
@@ -75,7 +75,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Make Card"
+        android:text="@string/mk_card"
         android:id="@+id/make_card_button"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
