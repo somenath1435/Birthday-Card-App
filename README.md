@@ -1,2 +1,2 @@
 # Birthday-Card-App
-Coder's way of wishing Happy Birthday :)
+Basic android application built in Java to wish a very Happy Birthday ^.^
